@@ -1,5 +1,6 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+// T_best = T_avg = T_worst = O(n^2) for the selection sort algorithm
+// Gaussian => (n + 1) / 2
+
 void main() {
   int[] array = randomArr(1000);
 
