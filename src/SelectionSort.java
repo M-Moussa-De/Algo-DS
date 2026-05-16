@@ -1,6 +1,14 @@
 // T_best = T_avg = T_worst = O(n^2) for the selection sort algorithm
 // Gaussian => (n + 1) / 2
 
+/*
+ * Properties:
+ * - Not stable sorting algorithm
+ * - In-place algorithm (no extra array required)
+ * - Simple but inefficient for large datasets
+ * - Performs (n - 1) + (n - 2) + ... + 1 comparisons
+ */
+
 public class SelectionSort {
     void main() {
         int[] array = Utils.randomArr(1000);
